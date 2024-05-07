@@ -11,3 +11,6 @@ db.sqlite3
 # Exclude video folder and its contents (use a forward slash for directories)
 video/
 
+# Exclude contents of media folder, but not the folders themselves
+media/*
+
