@@ -12,5 +12,6 @@ db.sqlite3
 video/
 
 # Exclude contents of media folder, but not the folders themselves
-media/*
+media/post_images/*
+media/profile_images/*
 
