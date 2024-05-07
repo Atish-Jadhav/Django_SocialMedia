@@ -1,0 +1,13 @@
+.git
+*.pyc
+__pycache__
+
+# Exclude environment variables
+.env
+
+# Exclude database file
+db.sqlite3
+
+# Exclude video folder and its contents (use a forward slash for directories)
+video/
+
