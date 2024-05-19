@@ -25,7 +25,7 @@ def index(request):
     feed = []
 
     user_following = FollowersCount.objects.filter(follower=request.user.username) #Generating a list of records where currently logged in user is mentioned in follower field.
-    print("Number of followers : ", len(user_following))
+    print("How many people following? : ", len(user_following))
 
     for users in user_following:
         user_following_list.append(users.user) #Appending the name of 'user' the currently logged in user is following from the records generated in user_following
